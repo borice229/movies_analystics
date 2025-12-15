@@ -1,1 +1,10 @@
-output\*
+# Dossier output
+output/
+
+# Environnements virtuels
+analyst_env/
+__pycache__/
+*.pyc
+
+# Fichiers temporaires
+*.log
