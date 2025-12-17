@@ -1,6 +1,3 @@
-# Dossier output
-output/
-
 # Environnements virtuels
 analyst_env/
 __pycache__/
