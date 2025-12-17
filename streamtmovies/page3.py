@@ -27,7 +27,7 @@ ratings_df = pd.read_parquet(output_dir / "ratings.parquet")
 meta_links_df = pd.read_parquet(output_dir / "links_enriched.parquet")
 meta_links = meta_links_df.set_index("movieId")[["imdb_url", "poster_url"]].to_dict(orient="index")
 
-
+st.write(ratings_df.head(10))
 
 # === Filtres de recherche ===
 st.title("🔎 Explorateur de films")
