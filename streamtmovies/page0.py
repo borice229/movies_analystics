@@ -36,6 +36,18 @@ with col3:
                 <strong>Borice DOSSOU</strong>
             </a>
         </div>
+
+        <div style='text-align: right;'>
+            <a href="https://github.com/borice229" target="_blank" style='text-decoration: none; color: #0077b5;'>
+                <strong>GitHub</strong>
+            </a>
+        </div>
+
+        <div style='text-align: right;'>
+            <a href="https://gitlab.com/dashboard/projects" target="_blank" style='text-decoration: none; color: #0077b5;'>
+                <strong>Gitlab projects</strong>
+            </a>
+        </div>
         """,
         unsafe_allow_html=True,
     )
@@ -46,11 +58,11 @@ st.write(" ")
 # Titre
 st.markdown("# **Phase 1 : Développeur Python & Architecte API**")
 # Afficher l'image séparément
-st.image("https://raw.githubusercontent.com/JosueAfouda/films-analytics/main/streamlit_app/architecture.png", use_container_width=True)
+st.image("https://gitlab.com/challenge-project2/engineering/movies_analystics/-/raw/main/streamtmovies/architecture.png?ref_type=heads", use_container_width=True)
 
 st.markdown(
         """
-        <a href="https://github.com/JosueAfouda/movie-backend" target="_blank">
+        <a href="https://gitlab.com/challenge-project2/engineering/fastapi" target="_blank">
             <button style="background-color: #28a745; color: white; padding: 10px 20px; border: none; border-radius: 8px; font-size: 16px;">
                 📦 Cliquer pour voir le Code de la Phase 1
             </button>
@@ -67,11 +79,11 @@ st.write(" ")
 # Titre
 st.markdown("# **Phase 2 : Data Analyst - Exploration et Visualisation**")
 # Afficher l'image séparément
-st.image("https://raw.githubusercontent.com/JosueAfouda/films-analytics/main/streamlit_app/architecturephase.png", use_container_width=True)
+st.image("https://gitlab.com/challenge-project2/engineering/movies_analystics/-/raw/main/streamtmovies/architecturephase.png?ref_type=heads", use_container_width=True)
 
 st.markdown(
         """
-        <a href="https://github.com/JosueAfouda/films-analytics" target="_blank">
+        <a href="https://gitlab.com/challenge-project2/engineering/movies_analystics" target="_blank">
             <button style="background-color: #28a745; color: white; padding: 10px 20px; border: none; border-radius: 8px; font-size: 16px;">
                 📊 Cliquer pour voir le Code de la Phase 2
             </button>
